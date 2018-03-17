@@ -1,3 +1,8 @@
 # pawsforchange
 
-https://coolors.co/dbe9d8-c2d4d8-f2efe8-b0aac2-ffffff
+**Colour Scheme** <br>
+Green-dbe9d8 <br>
+Blue-c2d4d8 <br>
+Peach-f2efe8 <br>
+Purple-b0aac2 <br>
+White-ffffff
