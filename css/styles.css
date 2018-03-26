@@ -1,0 +1,262 @@
+/* -------------------------------
+ * 
+ * 1. Global Style
+ * 2. Navigation Style
+ * 3. Homepage Style
+ * 4. About Style
+ * 5. Donate Style
+ * 
+ * ---------------------------- */
+
+/* -------------------------------
+ *
+ * Colour Scheme
+ * Green-dbe9d8
+ * Blue-c2d4d8
+ * Peach-f2efe8
+ * Purple-b0aac2
+ * White-ffffff
+ * 
+ * ---------------------------- */
+
+/*--------------------------------------------*/
+
+/*      01 - Global Style
+/*--------------------------------------------*/
+
+html,
+body {
+    width: 100%;
+    height: auto;
+    position: relative;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.title {
+    font-size: 60px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #7F7F7F;
+}
+
+.subtitle1 {
+    font-size: 20px;
+}
+
+.subtitle2 {
+    font-size: 22px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    font-weight: 900;
+    color: #585858;
+}
+
+.myFooter {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+
+.contact-icons {
+    width: 30px;
+    height: 30px;
+    margin: auto 5px 5px 5px;
+}
+
+.contact-icons:hover {
+    opacity: 0.5;
+}
+
+/*--------------------------------------------*/
+
+/*      02 - Navigation Style
+/*--------------------------------------------*/
+
+.navbar {
+    background-color: darkgray;
+}
+
+.navbar a {
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 0px 10px 0px 10px;
+}
+
+.navbar-nav > li > a:hover {
+    text-decoration: underline;
+}
+
+.navbar-nav > li.active > a {
+    text-decoration: underline;
+}
+
+.navbar-toggler {
+    border-color: #7F7F7F;
+}
+
+.navbar-toggler-icon {
+    background-image: url(../images/hamburger.png);
+}
+
+/*--------------------------------------------*/
+
+/*      03 - Homepage Style (index.html)
+/*--------------------------------------------*/
+
+/*padding: top right bottom left;*/
+
+.button {
+    width: 200px;
+    background-color: #DDDDDD;
+    border: none;
+    color: #7F7F7F;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button:hover {
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-decoration: none;
+    color: #7F7F7F;
+}
+
+/*--------------------------------------------*/
+
+/*      04 - About Style
+/*--------------------------------------------*/
+
+.textbox1 {
+    max-width: 930px;
+    height: auto;
+    text-align: left;
+    font-weight: 500;
+}
+
+.cause-icons {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+}
+
+.cause-title {
+    padding-top: 10px;
+    text-align: center;
+}
+
+/*--------------------------------------------*/
+
+/*      05 - Donate Style
+/*--------------------------------------------*/
+
+.boxes .col-lg-6 {
+    margin: 0px 10px 20px 10px;
+    text-align: center;
+    font-size: 22px;
+    height: 300px;
+    width: 550px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+/*--------------------------------------------*/
+
+/*      06 - Cause Style
+/*--------------------------------------------*/
+
+.img-cause {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.textbox2 {
+    text-align: left;
+    font-weight: 500;
+}
+
+.box {
+    width: auto;
+    height: 190px;
+    margin-top: 15px;
+    background-color: #c2d4d8;
+    text-align: center;
+}
+
+.plush-box {
+    border: medium solid darkgray;
+    margin: 15px 0px 15px 0px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.checkout {
+    width: 150px;
+    height: auto;
+    margin-top: 60px;
+    background-color: darkgray;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.checkout:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+/*--------------------------------------------*/
+
+/*      07 - Payment Style
+/*--------------------------------------------*/
+
+.info {
+    max-width: 700px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form {
+    margin-top: 20px;
+    max-width: 600px;
+    text-align: left;
+}
+
+label {
+    font-weight: 400;
+}
+
+input[type=text], select {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/*--------------------------------------------*/
+
+/*      08 - Thank You Style
+/*--------------------------------------------*/
+
+.box2 {
+    padding: 50px;
+    width: 600px;
+    height: auto;
+    background-color: #c2d4d8;
+    text-align: center;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
