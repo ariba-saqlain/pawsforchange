@@ -100,6 +100,16 @@ body {
     background-image: url(../images/hamburger.png);
 }
 
+.cart-icon {
+    width: 45px;
+    height: 45px;
+    margin-right: 20px;
+}
+
+.cart-icon:hover {
+    cursor: pointer;
+}
+
 /*--------------------------------------------*/
 
 /*      03 - Homepage Style (index.html)
@@ -107,15 +117,22 @@ body {
 
 /*padding: top right bottom left;*/
 
+.bg {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .button {
-    width: 200px;
-    background-color: #DDDDDD;
+    width: 180px;
+    background-color: #b0aac2;
     border: none;
-    color: #7F7F7F;
-    padding: 15px 32px;
+    color: white;
+    padding: 10px;
     text-align: center;
     display: inline-block;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 600;
     margin: 4px 2px;
     cursor: pointer;
@@ -128,7 +145,7 @@ body {
 .button:hover {
     box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-decoration: none;
-    color: #7F7F7F;
+    color: white;
 }
 
 /*--------------------------------------------*/
@@ -259,4 +276,33 @@ input[type=text], select {
     background-color: #c2d4d8;
     text-align: center;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*--------------------------------------------*/
+
+/*      09 - Donation Purchase Page
+/*--------------------------------------------*/
+
+.btn {
+    color: white;
+    background-color: #b0aac2;
+    border: none;
+}
+
+.btn:hover {
+    color: white;
+    background-color: #837a9f;
+    border: none;
+}
+
+.btn.delete {
+    color: white;
+    background-color: darkgray;
+    border: none;
+}
+
+.btn.delete:hover {
+    color: white;
+    background-color: gray;
+    border: none;
 }
